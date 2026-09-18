@@ -115,13 +115,14 @@ with st.sidebar:
     st.divider()
     
     model_engines = {
-        "Arcee Trinity 400B": "arcee-ai/trinity-large-preview:free",
-        "Step 3.5 Flash": "stepfun/step-3.5-flash:free",
-        "GLM 4.5 Air": "z-ai/glm-4.5-air:free",
-        "DeepSeek R1": "deepseek/deepseek-r1-0528:free",
-        "Nvidia Nemotron 3": "nvidia/nemotron-3-nano-30b-a3b:free",
-        "Qwen3 235B (Thinking)": "qwen/qwen3-235b-a22b-thinking-2507",
-        "GPT-OSS 120B": "openai/gpt-oss-120b:free"
+        
+        "Nvidia Nemotron 3 Nano Omni": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "Liquid LFM 2.5": "liquid/lfm-2.5-2.6b:free",
+        "Poolside Laguna XS": "poolside/laguna-xs-2.1:free",
+        "Nex-AGI Nex N2.5 Mini": "nex-agi/nex-n2.5-mini:free",
+        "Cohere North Mini Code": "cohere/north-mini-code:free",
+        "Google Lyria 3 Pro": "google/lyria-3-pro-preview",
+        "Google Gemma 4 26B": "google/gemma-4-26b-a4b-it:free"
     }
     
     selected_name = st.selectbox(
