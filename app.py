@@ -115,7 +115,6 @@ with st.sidebar:
     st.divider()
     
     model_engines = {
-        
         "Nvidia Nemotron 3 Nano Omni": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
         "Liquid LFM 2.5": "liquid/lfm-2.5-2.6b:free",
         "Poolside Laguna XS": "poolside/laguna-xs-2.1:free",
